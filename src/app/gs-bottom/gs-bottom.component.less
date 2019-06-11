@@ -1,0 +1,22 @@
+.gs-botton-container {
+  display: flex;
+  height: 100%;
+
+  > div {
+    flex:1;
+    height: 100%;
+
+    &.gs-bottom-left {
+      display: flex;
+      align-items: center;
+      justify-content: center; 
+      > div {
+        width: 35rem;
+      }
+    }
+    &.gs-bottom-right {
+      background: url(../../assets/gallery.JPG) center no-repeat;
+      background-size: cover;
+    }
+  }
+}

@@ -1,0 +1,51 @@
+.gs-top-menu {
+  height: 100%;
+  color: #fff;
+  padding: 0 5rem;
+  font-weight: bold;
+
+  .gs-logo-continaer {
+    background: url(../../assets/guru.jpg) center left no-repeat;
+    background-size: contain;
+
+    span {
+      margin-left: 2rem;
+      font-size: 1.5rem;
+    }
+  }
+
+  .gs-menu-container {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    
+    
+    div, nav {
+      display: flex;
+      width: 50%;
+      align-items: center;
+
+      &.gs-menu-links {
+        padding: 0 2.5rem;
+      }
+
+      .gs-enterance {
+        justify-content: space-evenly;
+        padding: 0 5rem;
+        
+       
+        .gs-sign-up {
+          border: 1px solid #fff;
+          padding: 0.5rem;
+          border-radius: 0.5rem;
+        }
+      }
+
+      a {
+        margin: 1rem;
+        cursor: pointer;
+      }
+    }
+
+  }
+}

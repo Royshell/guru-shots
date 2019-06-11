@@ -1,0 +1,66 @@
+/* You can add global styles to this file, and also import other style files */
+
+body {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-content: stretch;
+  align-items: stretch;
+  height: 100vh;
+  font-family: 'Open Sans', sans-serif;
+}
+ 
+h1 {
+  font-size: 4rem;
+  line-height: 4rem;
+}
+
+p {
+  font-size: 1.5rem;
+  line-height: 2rem;
+}
+
+app-root {
+  position: relative;
+  order: 0;
+  flex: 1 1 auto;
+  align-self: auto;
+  display: block;
+}
+
+@keyframes growIn {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}  
+
+@keyframes popIn {
+  from {
+    background-size: 0;
+  }
+  to {
+    background-size: 100%;
+  }
+}  
+
+@keyframes slideDivUp {
+  from {
+    top: 0;
+  }
+  to {
+    top: -100vh;
+  }
+}  
+
+@keyframes slideDivDown {
+  from {
+    top: -100vh;
+  }
+  to {
+    top: 0;
+  }
+}  

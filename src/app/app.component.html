@@ -1,0 +1,7 @@
+<header>
+  <gs-header></gs-header>
+</header>
+<gs-main class="gs-section"></gs-main>
+<gs-gallery class="gs-section" inViewport (inViewportAction)="onIntersection($event)" [isVisible]="galleryVisible"></gs-gallery>
+<gs-bottom class="gs-section"></gs-bottom>
+<router-outlet></router-outlet>
